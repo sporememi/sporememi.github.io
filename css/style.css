@@ -1564,3 +1564,17 @@ em {
 #menu {
 	font-size:20px;
 }
+
+@media screen and (max-width: 700px) {
+    .yandex-adaptive {
+        width:200px;
+        height:300px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .yandex-adaptive {
+        width:336px;
+        height:280px;
+    }
+}
