@@ -1565,6 +1565,45 @@ em {
 	font-size:20px;
 }
 
+.transition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+.transition p {
+  margin-left: 30px;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-size: 30px;
+}
+
+.mem {
+  display: flex;
+  justify-content: center;
+}
+
+.boxmem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width:940px) {
+
+.boxmem {
+  display: block;
+}
+
+}
+
 @media screen and (max-width: 700px) {
     .yandex-adaptive {
         width:200px;
