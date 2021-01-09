@@ -1575,7 +1575,7 @@ em {
 
 .transition p {
   margin-left: 30px;
-  background-color: black;
+  background-image: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
   height: 40px;
   width: 40px;
   display: flex;
@@ -1594,6 +1594,10 @@ em {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.active {
+	color:white !important;
 }
 
 @media only screen and (max-width:940px) {
