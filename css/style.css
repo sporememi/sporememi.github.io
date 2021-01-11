@@ -1565,6 +1565,10 @@ em {
 	font-size:20px;
 }
 
+#menu a {
+	margin-left: 20px;
+}
+
 .transition {
   display: flex;
   justify-content: center;
