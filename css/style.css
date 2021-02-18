@@ -1605,7 +1605,29 @@ em {
 .active {
 	color:red !important;
 }
+.active {
+	color: red !important;
+}
 
+#image {
+  height: 420px;
+  width: 380px;
+}
+
+/* весь скролбар */
+::-webkit-scrollbar { width: 10px; } 
+  
+/* верхняя и нижняя кнопки скролла*/
+::-webkit-scrollbar-button { background-color: #444; }
+  
+/* линия всего скролбара */
+::-webkit-scrollbar-track { background: #ffffff;} 
+  
+/* ползунок */
+::-webkit-scrollbar-thumb { background-color: #444; border-radius: 10px;}
+  
+/* нижний угол скролбара где встречаются горизонтальный и вертикальный скролбары */
+::-webkit-scrollbar-corner { background-color: #999; }
 @media only screen and (max-width:940px) {
 
 .boxmem {
@@ -1617,6 +1639,8 @@ em {
 .information {
   width: 300px;
 }
+
+
 
 @media only screen and (min-width:940px) {
   .information p {
